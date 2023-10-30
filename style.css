@@ -127,7 +127,7 @@ nav button {
     font-size: 40px;
 }
 
-#contact input[type=button] {
+#contact input[type=submit] {
     background-color: #212121;
     border: 0;
     color: white;
