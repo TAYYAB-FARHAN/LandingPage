@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+form,
+input {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    padding: 24px 16px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    padding-right: 16px;
+}
+
+nav button {
+    font-family: 'Raleway', sans-serif;
+    background-color: #212121;
+    color: white;
+    padding: 18px;
+    font-weight: 900;
+}
+
+
+#home {
+    background: url("assets/cover-img-1.jpg"), lightgray 50%/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+}
+
+#home h1 {
+    font-size: 55px;
+    padding-left: 40px;
+    color: #212121;
+}
+
+#home p {
+    width: 450px;
+    padding-left: 40px;
+    color: #4e4e4e;
+}
+
+#about {
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about h2 {
+    font-size: 55px;
+    color: #212121;
+}
+
+#about p {
+    width: 400px;
+    color: #4e4e4e;
+}
+
+#about .img-container img {
+    /* width: 295px; */
+    height: 380px;
+}
+
+#gallery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c3c3c3;
+    padding: 18px 125px 125px 0px;
+}
+
+#gallery h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    font-size: 55px;
+    overflow: hidden;
+}
+
+#gallery img {
+    width: 295px;
+    height: 380px;
+}
+
+.gallery-img-container {
+    display: flex;
+}
+
+.gallery-img-container img {
+    padding-left: 12px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e8e8e8;
+
+    padding: 100px;
+}
+
+
+#contact form {
+    display: flex;
+}
+
+#contact h2 {
+    font-size: 40px;
+}
+
+#contact input[type=button] {
+    background-color: #212121;
+    border: 0;
+    color: white;
+    padding: 18px;
+}
+
+#contact input[type=email] {
+    padding: 18px;
+    border: 0;
+    font-size: 16px;
+    width: 250px;
+}
+
+#footer {
+    background-color: #212121;
+}
+
+#footer p {
+    color: white;
+    padding: 25px;
+}
+#new-page-main{
+    height: 100vh;
+}
+#new-page-h1{
+    display: flex;
+}
